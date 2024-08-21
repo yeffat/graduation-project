@@ -1,0 +1,19 @@
+/*
+ * EX_INT_cfg.h
+ *
+ *  Created on: Oct 14, 2023
+ *      Author: ahmed
+ */
+
+#ifndef MCAL_EX_INT_EX_INT_CFG_H_
+#define MCAL_EX_INT_EX_INT_CFG_H_
+
+// pre configuration
+// FAILING_EDGE, LOW_LEVEL , ANY_CHANGE , RISING_EDGE
+#define INT0_SENSE 		FAILING_EDGE
+//FAILING_EDGE, RISING_EDGE
+#define INT1_SENSE 		RISING_EDGE
+// FAILING_EDGE, LOW_LEVEL , ANY_CHANGE , RISING_EDGE
+#define INT2_SENSE 		FAILING_EDGE
+
+#endif /* MCAL_EX_INT_EX_INT_CFG_H_ */
